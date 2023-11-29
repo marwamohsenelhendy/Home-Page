@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 12px;
+}
+
+.btns-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+body.hide-overflow--removal-alert {
+  overflow-y: hidden;
+}
+.input-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.results-container {
+  margin-top: 20px;
+}
